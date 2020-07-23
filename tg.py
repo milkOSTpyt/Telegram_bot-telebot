@@ -1,9 +1,8 @@
 import telebot
 from telebot import types
 from func import forecast, openssource, belmeta
-from pprint import pprint
 
-bot = telebot.TeleBot('1054925361:AAEup4MWVjF9riW-kR5bFkyMk-4ak-EZKgo')
+bot = telebot.TeleBot('MY_KEY')
 
 
 @bot.message_handler(commands=['start', 'help'])
